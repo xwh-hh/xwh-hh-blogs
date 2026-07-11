@@ -37,7 +37,7 @@ logo:
 
 # 侧边栏主功能导航菜单
 menubar:
-  columns: 1   # 每行显示 4 个，可调整
+  columns: 2   # 每行显示 4 个，可调整
   items:
     # 其他已有的菜单项...
     
