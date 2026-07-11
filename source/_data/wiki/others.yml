@@ -1,0 +1,19 @@
+# source/_data/wiki/math3.yml
+name: others
+title: 杂项
+subtitle: '课内数学知识点整理'
+
+base_dir: /wiki/others/
+tree:
+  '函数':          # 一级分类
+    - index       # 函数首页
+    - 二次函数
+    - 指数对数
+  '三角函数':
+    - index
+    - 基本公式
+    - 图像与性质
+  '数列':
+    - index
+    - 等差数列
+    - 等比数列
