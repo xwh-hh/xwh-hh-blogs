@@ -11,9 +11,12 @@ stellar:
 
 ######## head tags ########
 preconnect:
-  # - https://gcore.jsdelivr.net
-  # - https://gcore.jsdelivr.net
-  # - https://unpkg.com
+  - https://gcore.jsdelivr.net
+  - https://cdn.staticfile.org
+
+inject:
+  head:
+    - '<link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="all" />'
 
 # 一旦设置源站地址，非源站地址将不会被SEO收录，并且访问时弹出提示
 # 如果访问地址不在备用站主机列表，则警告信息为非法克隆
@@ -39,7 +42,7 @@ logo:
 
 # 侧边栏主功能导航菜单
 menubar:
-  columns: 2   # 每行显示 4 个，可调整
+  columns: 2   # 每行显示 2 个
   items:
     # 其他已有的菜单项...
     
