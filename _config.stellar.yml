@@ -42,32 +42,32 @@ logo:
 
 # 侧边栏主功能导航菜单
 menubar:
-  columns: 2   # 每行显示 2 个
+  columns: 4   # 每行显示 2 个
   items:
     # 其他已有的菜单项...
     
     - id: math1
-      title: 高中数学
+      title: 高数
       url: /wiki/math1/
     
     - id: math2
-      title: 竞赛数学
+      title: 数竞
       url: /wiki/math2/
     
     - id: math3
-      title: 大学数学
+      title: 大数
       url: /wiki/math3/
     
     - id: physics1
-      title: 高中物理
+      title: 高物
       url: /wiki/physics1/
     
     - id: physics2
-      title: 大学物理
+      title: 大物
       url: /wiki/physics2/
     
     - id: oi
-      title: 信息学竞赛
+      title: 信竞
       url: /wiki/oi/
     
     - id: others
